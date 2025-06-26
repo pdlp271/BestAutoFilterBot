@@ -83,31 +83,31 @@ DATABASE_URI2 = environ.get('DATABASE_URI2', "")
 # ============================
 # Movie Notification & Update Settings
 # ============================
-MOVIE_UPDATE_NOTIFICATION = bool(environ.get('MOVIE_UPDATE_NOTIFICATION', False))  # Notification On (True) / Off (False)
-MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-100'))  # Notification of sent to your channel
+MOVIE_UPDATE_NOTIFICATION = bool(environ.get('MOVIE_UPDATE_NOTIFICATION',True))  # Notification On (True) / Off (False)
+MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002372236940'))  # Notification of sent to your channel
 DREAMXBOTZ_IMAGE_FETCH = bool(environ.get('DREAMXBOTZ_IMAGE_FETCH', False))  # On (True) / Off (False)
 
 # ============================
 # Verification Settings
 # ============================
 IS_VERIFY = is_enabled('IS_VERIFY', False)
-LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-100')) #Verification Channel Id 
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-100')) #If Anyone Set Your Bot In Any Group And Set Shortner In That Group Then In This Channel The All Details Come
+LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002241178189')) #Verification Channel Id 
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002241178189')) #If Anyone Set Your Bot In Any Group And Set Shortner In That Group Then In This Channel The All Details Come
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://telegra.ph/file/9ecc5d6e4df5b83424896.jpg")
 
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/dreamxbotz")
-TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/dreamxbotz")
-TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/dreamxbotz")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/Howtoopenlink271/41")
+TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/Howtoopenlink271/41")
+TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/Howtoopenlink271/41")
 
 # Verification (Must Fill All Veriables. Else You Got Error
-SHORTENER_API = environ.get("SHORTENER_API", "a7ac9b3012c67d7491414cf272d82593c75f6cbb")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "omegalinks.in")
+SHORTENER_API = environ.get("SHORTENER_API", "7f4785525dda19ff748e7f92f1ad4fc7cac85a43")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "shortxlinks.com")
 
-SHORTENER_API2 = environ.get("SHORTENER_API2", "a7ac9b3012c67d7491414cf272d82593c75f6cbb")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "omegalinks.in")
+SHORTENER_API2 = environ.get("SHORTENER_API2", "7f4785525dda19ff748e7f92f1ad4fc7cac85a43")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "shortxlinks.com")
 
-SHORTENER_API3 = environ.get("SHORTENER_API3", "a7ac9b3012c67d7491414cf272d82593c75f6cbb")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "omegalinks.in")
+SHORTENER_API3 = environ.get("SHORTENER_API3", "7f4785525dda19ff748e7f92f1ad4fc7cac85a43")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "shortxlinks.com")
 
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "1200"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "54000"))
@@ -115,7 +115,7 @@ THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "54000"))
 # ============================
 # Channel & Group Links Configuration
 # ============================
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/dreamxbotz')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+hf0frQmRGu41Yzll')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/dreamxbotz')
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/dreamxbotz')
 UPDATE_CHNL_LNK = environ.get('UPDATE_CHNL_LNK', 'https://t.me/dreamxbotz')
